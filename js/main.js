@@ -1,5 +1,22 @@
-/* Scheffler Immobilien — Designentwurf. No dependencies. */
+/* Designentwurf „Scheffler Immobilien & Hausverwaltung“, Waren (Müritz)
+   Gestaltung und Code © 2026 Mykhailo Sibahatov. Alle Rechte vorbehalten.
+   Nur zur Ansicht — keine Nutzung ohne schriftliche Vereinbarung (LICENSE).
+   Interactions. No dependencies. */
 (() => {
+  /* ---------- Licence: the draft only runs where it has been licensed ----------
+     Add a domain here once a written agreement is in place. */
+  const LICENSED = ['sibagatovmihail.github.io', 'localhost', '127.0.0.1'];
+  if (location.protocol !== 'file:' && !LICENSED.includes(location.hostname)) {
+    const lock = document.createElement('div');
+    lock.className = 'licence-lock';
+    lock.setAttribute('role', 'alertdialog');
+    lock.innerHTML = '<div><b>Nicht lizenzierte Kopie</b>' +
+      '<p>Diese Website ist ein urheberrechtlich geschützter Designentwurf von Mykhailo Sibahatov und für diese Domain nicht lizenziert.</p>' +
+      '<p>Nutzungsrechte: <a href="mailto:sibagatovmihail@gmail.com">sibagatovmihail@gmail.com</a></p></div>';
+    document.body.appendChild(lock);
+    document.documentElement.style.overflow = 'hidden';
+  }
+
   const $ = (s, r = document) => r.querySelector(s);
   const $$ = (s, r = document) => [...r.querySelectorAll(s)];
   const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;

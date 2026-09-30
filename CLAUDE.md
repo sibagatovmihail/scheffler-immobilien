@@ -12,11 +12,14 @@ Static HTML/CSS/JS, no build. Pages: index, immobilien, anbieten, hausverwaltung
   crescent fitted to the pixel mask) → assets/logo.svg, logo-quer.svg (header), logo-negativ.svg (footer), mark.svg, favicon.svg.
 - Palette = logo + old site: blue #0051FF, olive #9EA500, peach #FED18C, orange #EC7404 (markers only);
   ink #13213F for text/buttons, olive text #5E6300, olive-deep #3F4400 band. Accent words = solid peach block (.hl).
-- Fonts: Fraunces 600 (heads, opsz) + Figtree (body), self-hosted.
+- Fonts: Nohemi 600 (heads; user's local font, freeware, subset → fonts/nohemi-600.woff2) + Figtree (body). Fraunces was rejected.
 - Hero: the logo's five bars as an SVG clip mask over the photo (SMIL rise, waits for the preloader) + the blue crescent.
 - Icons: Heroicons sprite (`tools/sprite.py` pulls from ~/Projekte/_icons) + inline Animate UI icons (.ai-* keyframes in CSS).
 - Map: `tools/map.py` from tools/osm-waren.json (one Overpass export); injected between map:start/map:end.
 - Listings are "Beispielobjekt" cards with data-type/data-deal; filter + empty state in main.js (URL ?art=&zweck=).
 - Forms: custom select/segments/checkbox, validation, simulated send → modal. Production: Web3Forms.
-- Copyright set (Design Principles rule 15) NOT added yet — final step once approved.
+- Copyright set added 2026-09-30 (LICENSE, notices, footer credit, draft tag, licence lock in main.js: LICENSED hosts).
+- Preview: GitHub Pages sibagatovmihail/scheffler-immobilien (noindex).
+- Header = full-bleed bar (user: "touch the borders"), --ctl-r 1rem. Card-to-card gaps --grid-gap .5rem (rule 4c).
+- Form errors sit absolutely in the row gap: validation never changes form height (rule 14b).
 - Bump `?v=` on CSS/JS links with every deploy that changes them.

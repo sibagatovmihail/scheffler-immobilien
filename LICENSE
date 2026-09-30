@@ -1,0 +1,57 @@
+Copyright (c) 2026 Mykhailo Sibahatov. Alle Rechte vorbehalten. / All rights reserved.
+
+DEUTSCH
+
+Dieses Repository enthält einen Designentwurf (Gestaltung, Layout, HTML, CSS
+und JavaScript, einschließlich der Hero-Bildmaske aus den Logo-Balken, der
+Objektsuche mit Filtern, der Altstadt-Karte und der Formularelemente) für die
+Website von Scheffler Immobilien & Hausverwaltung in Waren (Müritz).
+Gestaltung und Quellcode sind geistiges Eigentum von Mykhailo Sibahatov und
+urheberrechtlich geschützt (u. a. §§ 2, 69a UrhG).
+
+Der Entwurf wird ausschließlich zur Ansicht und Begutachtung bereitgestellt.
+Ohne vorherige schriftliche Vereinbarung mit dem Urheber ist es nicht gestattet,
+den Entwurf oder Teile davon zu kopieren, zu verändern, zu veröffentlichen, auf
+einer eigenen Domain zu betreiben, weiterzugeben oder als Vorlage für eine
+eigene oder fremde Umsetzung zu verwenden. Die Veröffentlichung dieses
+Repositorys stellt keine Lizenz dar.
+
+Name, Logo, Anschrift, Telefonnummern und Angaben von Scheffler Immobilien &
+Hausverwaltung bleiben Eigentum des Unternehmens und sind von diesem Vorbehalt
+nicht erfasst. Das Logo ist das bestehende Logo des Unternehmens, für den
+Entwurf als Vektorgrafik nachgezeichnet; das Foto des Büros stammt von der
+bisherigen Website. Die übrigen Fotos sind Beispielbilder von Unsplash
+(Unsplash-Lizenz) und bleiben Eigentum der jeweiligen Fotografinnen und
+Fotografen. Die Schrift Figtree steht unter der SIL Open Font License, Nohemi
+ist Freeware von Rajesh Rajput (private und kommerzielle Nutzung erlaubt).
+Icons: Heroicons (MIT) und Animate UI (MIT + Commons Clause). Kartendaten
+© OpenStreetMap-Mitwirkende (ODbL).
+
+Nutzungsrechte / Lizenzanfragen: Mykhailo Sibahatov, sibagatovmihail@gmail.com
+
+ENGLISH
+
+This repository contains a design proposal (visual design, layout, HTML, CSS
+and JavaScript, including the hero image mask built from the logo's bars, the
+property search with filters, the old-town map and the form controls) for the
+website of Scheffler Immobilien & Hausverwaltung in Waren (Müritz), Germany.
+The design and source code are the intellectual property of Mykhailo Sibahatov
+and are protected by copyright.
+
+It is provided for viewing and review only. Without a prior written agreement
+with the author, you may not copy, modify, publish, host on your own domain,
+distribute, or use this work or any part of it as the basis for your own or a
+third-party implementation. Making this repository public does not grant any
+licence.
+
+The business's name, logo, address, phone numbers and details remain the
+property of the business and are not covered by this notice. The logo is the
+business's existing logo, redrawn as a vector graphic for this draft; the
+office photo comes from the business's previous website. The other photographs
+are sample images from Unsplash (Unsplash License) and remain the property of
+their photographers. Figtree is licensed under the SIL Open Font License;
+Nohemi is freeware by Rajesh Rajput (personal and commercial use permitted).
+Icons: Heroicons (MIT) and Animate UI (MIT + Commons Clause). Map data
+© OpenStreetMap contributors (ODbL).
+
+Licensing enquiries: Mykhailo Sibahatov, sibagatovmihail@gmail.com

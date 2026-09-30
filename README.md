@@ -1,5 +1,12 @@
 # Scheffler Immobilien & Hausverwaltung — Designentwurf
 
+**© 2026 Mykhailo Sibahatov. Alle Rechte vorbehalten.** Der Entwurf dient ausschließlich zur Ansicht.
+Kopieren, Veröffentlichen, Betreiben auf einer eigenen Domain oder Weiterverwenden nur mit schriftlicher
+Vereinbarung, siehe [LICENSE](LICENSE). Inhalte, Name und Logo des Unternehmens bleiben Eigentum von
+Scheffler Immobilien & Hausverwaltung.
+
+Vorschau: https://sibagatovmihail.github.io/scheffler-immobilien/
+
 Neugestaltung der Website von Scheffler Immobilien & Hausverwaltung, Inhaber Sven Scheffler,
 Kirchenstraße 4, 17192 Waren (Müritz). Die bisherige Seite (scheffler-immo.de, Drupal) ist
 weitgehend leer. Nur zur Ansicht: `index.html` im Browser öffnen oder `python3 -m http.server`
@@ -24,7 +31,8 @@ weitgehend leer. Nur zur Ansicht: `index.html` im Browser öffnen oder `python3 
   Für Text und Flächen dunklere, kontrastsichere Töne (Navy #13213F, Oliv-Text #5E6300).
 - **Karte** der Altstadt als eigenes SVG aus OpenStreetMap-Daten (`tools/map.py`), ohne Google-Einbettung, keine Cookies.
 - **Icons:** Heroicons und Animate UI (animiert per CSS bei Hover), aus der lokalen Bibliothek `~/Projekte/_icons`.
-- Eigene Formularelemente (Dropdown, Segmente, Checkbox), Handy-Menü mit Scroll-Sperre.
+- Eigene Formularelemente (Dropdown, Segmente, Checkbox); Fehlermeldungen verändern die Formulargröße nicht.
+- Header als durchgehende Leiste über die volle Breite; auf dem Handy wird daraus das Menü (mit Scroll-Sperre).
 
 ## Offene Punkte (mit dem Kunden klären)
 
@@ -45,5 +53,5 @@ myHQ Workspaces (buero), Agata Bak-Geerinck (grundstueck), Jacob Bentzinger (ste
 Jakub Żerdzicki (schluessel), Prydumano Design (kueche), Matthias Reumann (altbau).
 Büro-Foto (`buero-kirchenstrasse.jpg`): von der bisherigen Website, © Sven Scheffler.
 
-Schriften Fraunces und Figtree (SIL OFL), lokal eingebunden. Logo-Schrift Tinos (Apache 2.0, nur im Werkzeug).
+Schriften: Nohemi SemiBold (Titel, Freeware von Rajesh Rajput, kommerziell nutzbar) und Figtree (SIL OFL), lokal eingebunden. Logo-Schrift Tinos (Apache 2.0, nur im Werkzeug).
 Heroicons (MIT), Animate UI Icons (MIT + Commons Clause). Karte © OpenStreetMap-Mitwirkende (ODbL).
